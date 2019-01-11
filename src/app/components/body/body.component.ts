@@ -5,5 +5,11 @@ import { Component } from '@angular/core';
     templateUrl: './body.component.html'
 })
 export class BodyComponent {
-    nombre: 'alberto';
+    mostrar = true;
+    frase: any = {
+        mensaje: 'Un gran poder conlleva uns gran responsabilidad',
+        autor: 'Ben Parker'
+    };
+
+    personajes: string[] = ['SpiderMan', 'Venon', 'Dr. Octopus'];
 }
